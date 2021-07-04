@@ -1,0 +1,66 @@
+body {
+      margin: 0;
+      font-family: serif;
+      padding: 0;
+}
+.container {
+      background:url('img/top-banner.png') no-repeat;
+      background-position: left;
+     
+}
+section{
+      display: flex;
+      
+     
+      
+}
+.left-side {
+      height: 50%;
+      padding-left: 6%;
+}
+.left-side h1 {
+      font-size: 50px;
+      line-height: 40px;
+      
+}
+.left-side h3 {
+      font-size: 22px;
+}
+
+
+ .left-side img {
+      width: 600px;
+      height: 500px;
+      padding-top: 10px;
+      padding-right: 10px;
+}
+ .left-side p {
+      font-weight: 400;
+      font-size: 22px;
+      color: darkgray;
+      max-width: 60%;
+}
+
+.left-side .btn {
+      border: 2px solid orange;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight:800;
+      padding: 10px 40px;
+      background-color:#F88667;
+      transition:0.5s ease-in ;
+      -webkit-transition:0.5s ease-in ;
+      -moz-transition:0.5s ease-in ;
+      -ms-transition:0.5s ease-in ;
+      -o-transition:0.5s ease-in ;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      margin-top: 5px;
+}
+ .left-side .btn:hover {
+      background:  orange;
+      color: #000;
+}
