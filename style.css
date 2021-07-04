@@ -3,41 +3,49 @@ body {
       font-family: serif;
       padding: 0;
 }
+
 h1 {
       font-size: 50px;
 }
+
 .container {
-      background:url('img/top-banner.png') no-repeat;
+      background: url('img/top-banner.png') no-repeat;
       background-position: left;
-     
+
 }
-section{
+
+.d-flex {
       display: flex;
       margin-bottom: 150px;
-     
-      
+
+
 }
+
 .left-side {
       height: 50%;
       padding-left: 6%;
+
 }
+
 .left-side h1 {
       font-size: 50px;
       line-height: 40px;
-      
+
 }
+
 .left-side h3 {
       font-size: 22px;
 }
 
 
- .left-side img {
+.left-side img {
       width: 600px;
       height: 500px;
       padding-top: 10px;
       padding-right: 10px;
 }
- .left-side p {
+
+.left-side p {
       font-weight: 400;
       font-size: 22px;
       color: darkgray;
@@ -49,25 +57,64 @@ section{
       border-radius: 5px;
       text-decoration: none;
       font-size: 20px;
-      font-weight:800;
+      font-weight: 800;
       padding: 10px 40px;
-      background-color:#F88667;
-      transition:0.5s ease-in ;
-      -webkit-transition:0.5s ease-in ;
-      -moz-transition:0.5s ease-in ;
-      -ms-transition:0.5s ease-in ;
-      -o-transition:0.5s ease-in ;
+      background-color: #F88667;
+      transition: 0.5s ease-in;
+      -webkit-transition: 0.5s ease-in;
+      -moz-transition: 0.5s ease-in;
+      -ms-transition: 0.5s ease-in;
+      -o-transition: 0.5s ease-in;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
       margin-top: 5px;
 }
- .left-side .btn:hover {
-      background:  orange;
+
+.left-side .btn:hover {
+      background: orange;
       color: #000;
 }
+
 .dream {
       background: url(./img/dream-bg.png) no-repeat;
       background-position: right;
 }
+.exper {
+      background: url(./img/exp-bg.png)no-repeat;
+      background-position: left;
+}
+.box-shadow {
+    
+      
+  width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 20px;
+   box-shadow: 10px 10px 40px grey;
+}
+.box-shadow h2 {
+      font-size: 40px;
+}
+.box-shadow:first-child {
+      border-left: 7px solid;
+      border-image: linear-gradient(green,yellow);
+      border-image-slice: 1;
+}
+      
+
+
+.box-shadow:last-child {
+      border-left: 7px solid;
+      border-image: linear-gradient(blue,cyan);
+      border-image-slice: 1;
+}
+footer p {
+      
+      color: orange;
+      text-align: center;
+      font-size: 22px;
+}
+
+     
