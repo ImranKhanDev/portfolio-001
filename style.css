@@ -3,6 +3,9 @@ body {
       font-family: serif;
       padding: 0;
 }
+h1 {
+      font-size: 50px;
+}
 .container {
       background:url('img/top-banner.png') no-repeat;
       background-position: left;
@@ -10,7 +13,7 @@ body {
 }
 section{
       display: flex;
-      
+      margin-bottom: 150px;
      
       
 }
@@ -63,4 +66,8 @@ section{
  .left-side .btn:hover {
       background:  orange;
       color: #000;
+}
+.dream {
+      background: url(./img/dream-bg.png) no-repeat;
+      background-position: right;
 }
